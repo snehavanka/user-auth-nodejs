@@ -13,15 +13,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Sneha@220',
+  password: 'mysqlpassword',
   database: 'user_auth'
 });
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'snehavanka2006@gmail.com',
-    pass: 'xixd tbip yuyp eclr'
+    user: '12343@gmail.com',
+    pass: 'wert dfgb dfs'
   }
 });
 
